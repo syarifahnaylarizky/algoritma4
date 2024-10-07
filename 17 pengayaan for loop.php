@@ -24,5 +24,5 @@ foreach ($matriks as $baris) {
     }
     echo "<br>";
 }
-print_r("<p><strong>by :syarifah nayla rizkyy");
+print_r("<p><strong>by :syarifah nayla rizky");
 ?>
