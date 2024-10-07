@@ -14,5 +14,5 @@ $barang = ["Buku Tulis", "Penghapus", "Spidol"];
 for($i=0; $i < count($barang); $i++){
     echo $barang[$i]."<br>";
 }
-print_r("<p><strong>by :syarifah nayla rizkyy");
+print_r("<p><strong>by :syarifah nayla rizky");
 ?>
