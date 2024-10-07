@@ -20,3 +20,7 @@ $email["isi"] = "Apa kabar? sudah lama tidak berjumpa";
 echo "<pre>";
 print_r($email);
 echo "</pre>";
+
+echo "<hr>";
+$nama_variabel=array("nama1"=>"70","nama2"=>"67","nama3"=>"89");
+  echo "hasil dari program " . $nama_variabel['nama1'] . " nilai.";
