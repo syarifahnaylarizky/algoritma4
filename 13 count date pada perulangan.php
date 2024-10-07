@@ -58,5 +58,5 @@ echo '<td>-</td>
 	echo '</tr>';
 }
 echo '</table>';
-print_r("<p><strong>by :syarifah nayla rizkyy");
+print_r("<p><strong>by :syarifah nayla rizky");
 ?>
