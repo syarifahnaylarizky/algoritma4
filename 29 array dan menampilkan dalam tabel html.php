@@ -19,3 +19,5 @@ for ($i = 0; $i < $totalArray; $i++) {
 echo "</table>";
 echo "<br>";
 
+print_r("<p><strong>by :syarifah naila rizky");
+?>
