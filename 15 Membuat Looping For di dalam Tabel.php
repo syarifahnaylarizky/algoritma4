@@ -36,5 +36,4 @@
 		</table>
 	</form>
 </body>
-print_r("<p><strong>by :syarifah nayla rizkyy");
 </html>
