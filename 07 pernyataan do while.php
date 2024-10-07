@@ -5,5 +5,5 @@ do {
   $i++;
 } while ($i <= 5);
 
-print_r("<p><strong>by :syarifah nayla rizkyy");
+print_r("<p><strong>by :syarifah nayla rizky");
 ?>
