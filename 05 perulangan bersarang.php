@@ -4,8 +4,7 @@ while($i < 10){
     for($j = 0; $j < 10; $j++){
         echo "Ini perulangan ke ($i, $j)<br>";
     }
-
     $i++;
 }
-print_r("<p><strong>by :syarifah nayla rizkyy");
+print_r("<p><strong>by :syarifah naila rizky");
 ?>
