@@ -24,3 +24,5 @@ echo "</pre>";
 echo "<hr>";
 $nama_variabel=array("nama1"=>"70","nama2"=>"67","nama3"=>"89");
   echo "hasil dari program " . $nama_variabel['nama1'] . " nilai.";
+  print_r("<p><strong>by :syarifah nayla rizky");
+  ?>

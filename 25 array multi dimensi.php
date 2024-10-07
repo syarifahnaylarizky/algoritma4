@@ -21,3 +21,5 @@ foreach($artikel as $post){
     echo "<p>".$post["penulis"]."<p>";
     echo "<hr>";
 }
+print_r("<p><strong>by :syarifah nayla rizky");
+?>

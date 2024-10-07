@@ -13,3 +13,5 @@ $kendaraan = array('jenis' => 'Mobil', 'merk' => 'Toyota', 'tipe' => 'Vios');
 foreach ($kendaraan as $key => $val) {
 	echo ucfirst($key) . ': ' . $val . '<br/>';
 }
+print_r("<p><strong>by :syarifah nayla rizky");
+?>
