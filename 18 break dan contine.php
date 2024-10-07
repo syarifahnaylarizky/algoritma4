@@ -50,5 +50,5 @@ for ($i = 0; $i < 5; $i++) {
     echo "\n";
 }
 echo "<br>";
-print_r("<p><strong>by :syarifah nayla rizkyy");
+print_r("<p><strong>by :syarifah nayla rizky");
 ?>
