@@ -6,5 +6,5 @@ for ($row = 1; $row <= 5; $row++)
         echo '*' . '<br/>';
     }
 }
-print_r("<p><strong>by :syarifah nayla rizkyy");
+print_r("<p><strong>by :syarifah nayla rizky");
 ?>
