@@ -4,7 +4,8 @@ $ulangi = 0;
 
 while($ulangi < 10){
     echo "<p>Ini adalah perulangan ke-$ulangi</p>";
-    $ulangi
+    $ulangi++;
 }
-print_r("<p><strong>by :syarifah nayla rizky");
+
+print_r("<p><strong>by :syarifah naila rizky");
 ?>
