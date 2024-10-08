@@ -7,11 +7,11 @@ $artikel = [
     ],
     [
         "judul" => "Tutorial PHP dari Nol hingga Mahir",
-        "penulis" => "syarifahnaylariz"
+        "penulis" => "syarifahnaylarizky"
     ],
     [
         "judul" => "Membuat Aplikasi Web dengan PHP",
-        "penulis" => "syarifahnaylariz"
+        "penulis" => "syarifahnaylarizky"
     ]
 ];
 
