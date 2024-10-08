@@ -12,7 +12,7 @@ $bulan = array('1'=>'Januari',
 			'November', 
 			'Desember'
 		);
-
+	
 // Informai yang diperoleh dari database
 $tahapan = array(
 array('tahap' => 'Perencanaan',	'tgl' => '2015-01-31'),
@@ -22,6 +22,12 @@ array('tahap' => 'Penerapan',	'tgl' => '2015-04-30'),
 array('tahap' => 'Evaluasi',	'tgl' => '2015-05-31'),
 array('tahap' => 'Penggunaan',	'tgl' => '2015-06-30')
 			);
+
+foreach ($tahapan as $key => $tahap)
+{
+	$bln_batas = date("n",strtotime($tahap['tgl']));
+	$ref_tahapan[$bln_batas] = $key;
+}
 echo '<table>
 		<tr>
 			<th rowspan="2">Bulan</th>
@@ -34,29 +40,26 @@ echo '<table>
 	
 		';
 
-$jml_bln = 
-for ($i = 1; $i <= count($bulan); $i++)
+$jml_bln = count($bulan);
+for ($i = 1; $i <= $jml_bln; $i++)
 {	
 	echo '<tr>
 			<td> ' . strtoupper($bulan[$i]) . ' </td>';
 		
-		$data_tahapan = false;
-		foreach ($tahapan as $tahap)
-		{
-			$bln_batas = date("m",strtotime($tahap['tgl']));
-			if ($bln_batas == $i) {
-echo '<td>'.$tahap['tahap'].'</td>
-	<td>'.$tahap['tgl'].'</td>';
-$data_tahapan = true;
-			}
-			
-		}
-		if (!$data_tahapan)
+			if (key_exists($i, $ref_tahapan))
+			{
+echo '<td>'.$tahapan[$ref_tahapan[$i]]['tahap'].'</td>
+	<td>'.$tahapan[$ref_tahapan[$i]]['tgl'].'</td>';
+			} 
+			else
+			{
 echo '<td>-</td>
 	<td>-</td>';
-		
+			}
+			
 	echo '</tr>';
 }
 echo '</table>';
+
 print_r("<p><strong>by :syarifah nayla rizky");
 ?>
